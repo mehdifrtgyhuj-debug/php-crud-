@@ -277,7 +277,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ```
 MIT License
 
-Copyright (c) 2024 Mehdi Fartighiyej
+Copyright (c) 2024 Mehdi Farhani
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -288,9 +288,18 @@ in the Software without restriction...
 
 ## 👨‍💼 Author
 
-**Mehdi Fartighiyej**
+**Mehdi Farhani**
 - GitHub: [@mehdifrtgyhuj-debug](https://github.com/mehdifrtgyhuj-debug)
 - Email: your-email@example.com
+- LinkedIn: [Your Profile]
+
+---
+
+## 👨‍💼 نویسنده (فارسی)
+
+**مهدی فرحانی**
+- GitHub: [@mehdifrtgyhuj-debug](https://github.com/mehdifrtgyhuj-debug)
+- ایمیل: your-email@example.com
 - LinkedIn: [Your Profile]
 
 ---
@@ -304,7 +313,7 @@ If you have any questions or need help:
 
 ---
 
-## 📞 پشتیبانی (فارسی)
+## 📞 پشتی��انی (فارسی)
 
 اگر سؤالی دارید یا نیاز به کمک دارید:
 1. بخش [عیب‌یابی](#-عیب‌یابی-فارسی) را بررسی کنید
@@ -319,8 +328,8 @@ If you have any questions or need help:
 
 ⭐ اگر این پروژه کمکی برای شما بود، لطفاً یک ستاره بدهید!
 
-**Made with ❤️ by Mehdi Fartighiyej**
+**Made with ❤️ by Mehdi Farhani**
 
-**ساخته‌شده با ❤️ توسط مهدی فرتیقیه‌ج**
+**ساخته‌شده با ❤️ توسط مهدی فرحانی**
 
 </div>
