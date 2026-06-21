@@ -12,7 +12,7 @@
 
 A professional PHP-based CRUD application for managing users with full features
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [API](#-api) • [License](#-license)
+[Features](#-features) • [Usage](#-usage) • [License](#-license)
 
 </div>
 
@@ -52,61 +52,6 @@ Perfect for learning database operations and web development fundamentals!
 
 ---
 
-## 🚀 Installation
-
-### Prerequisites
-- PHP 7.4 or higher
-- MySQL 5.7 or higher
-- Apache/Nginx web server
-- Composer (optional)
-
-### Step-by-Step Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/mehdifrtgyhuj-debug/php-crud-.git
-   cd php-crud-
-   ```
-
-2. **Create database**
-   ```sql
-   CREATE DATABASE user_management;
-   USE user_management;
-   
-   CREATE TABLE users (
-     id INT PRIMARY KEY AUTO_INCREMENT,
-     first_name VARCHAR(50) NOT NULL,
-     last_name VARCHAR(50) NOT NULL,
-     email VARCHAR(100) UNIQUE NOT NULL,
-     phone VARCHAR(15),
-     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-   );
-   ```
-
-3. **Configure database connection**
-   ```php
-   // config/database.php
-   <?php
-   define('DB_HOST', 'localhost');
-   define('DB_USER', 'root');
-   define('DB_PASS', 'password');
-   define('DB_NAME', 'user_management');
-   ?>
-   ```
-
-4. **Start your server**
-   ```bash
-   php -S localhost:8000
-   ```
-
-5. **Open in browser**
-   ```
-   http://localhost:8000
-   ```
-
----
-
 ## 💡 Usage
 
 ### Adding a User
@@ -131,66 +76,6 @@ Perfect for learning database operations and web development fundamentals!
 
 ---
 
-## 📡 API Endpoints
-
-### GET Requests
-```
-GET /api/users.php                 # Get all users
-GET /api/users.php?id=1            # Get specific user
-```
-
-### POST Requests
-```
-POST /api/users.php                # Create new user
-Body: {
-  "first_name": "محمد",
-  "last_name": "احمدی",
-  "email": "user@example.com",
-  "phone": "+98 912 345 6789"
-}
-```
-
-### PUT Requests
-```
-PUT /api/users.php?id=1            # Update user
-Body: {
-  "first_name": "محمد",
-  "last_name": "احمدی",
-  "email": "newemail@example.com"
-}
-```
-
-### DELETE Requests
-```
-DELETE /api/users.php?id=1         # Delete user
-```
-
----
-
-## 📁 Project Structure
-
-```
-php-crud-/
-├── config/
-│   └── database.php              # Database configuration
-├── api/
-│   └── users.php                 # API endpoints
-├── public/
-│   ├── index.php                 # Main page
-│   ├── add.php                   # Add user form
-│   ├── edit.php                  # Edit user form
-│   ├── css/
-│   │   └── style.css             # Styling
-│   └── js/
-│       └── script.js             # Frontend logic
-├── classes/
-│   └── User.php                  # User class
-├── README.md                     # This file
-└── LICENSE                       # MIT License
-```
-
----
-
 ## 🔒 Security Features
 
 - ✅ **Prepared Statements** - Prevent SQL injection
@@ -199,20 +84,6 @@ php-crud-/
 - ✅ **CSRF Protection** - Token verification
 - ✅ **Password Hashing** - Secure password storage
 - ✅ **XSS Prevention** - HTML entity encoding
-
----
-
-## 📊 Database Schema
-
-| Column | Type | Description |
-|--------|------|-------------|
-| id | INT | Primary key, auto-increment |
-| first_name | VARCHAR(50) | User's first name |
-| last_name | VARCHAR(50) | User's last name |
-| email | VARCHAR(100) | Unique email address |
-| phone | VARCHAR(15) | Contact phone number |
-| created_at | TIMESTAMP | Creation date/time |
-| updated_at | TIMESTAMP | Last update date/time |
 
 ---
 
@@ -270,18 +141,6 @@ Solution: Use a valid email address in the format: user@example.com
 - [MySQL Documentation](https://dev.mysql.com/doc/)
 - [REST API Best Practices](https://restfulapi.net/)
 - [OWASP Security Guidelines](https://owasp.org/)
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ---
 
