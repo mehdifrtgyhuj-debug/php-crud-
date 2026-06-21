@@ -32,6 +32,20 @@ Perfect for learning database operations and web development fundamentals!
 
 ---
 
+## 📋 معرفی (فارسی)
+
+این یک پروژه **دوستانه برای مبتدیان اما حرفه‌ای** است که نمایش دهنده موارد زیر می‌باشد:
+- ✅ عملیات کامل CRUD (ایجاد، خواندن، به‌روزرسانی، حذف)
+- ✅ مدیریت پایگاه داده با MySQL
+- ✅ معماری کد تمیز
+- ✅ اصول RESTful
+- ✅ مدیریت خطاها
+- ✅ رابط کاربری دوستانه
+
+ایده‌آل برای یادگیری عملیات پایگاه داده و مبانی توسعه وب!
+
+---
+
 ## ⭐ Features
 
 ### Core Functionality
@@ -49,6 +63,26 @@ Perfect for learning database operations and web development fundamentals!
 - ⚡ Fast and optimized queries
 - 📝 Well-documented code
 - 🎨 Clean UI/UX
+
+---
+
+## ⭐ ویژگی‌ها (فارسی)
+
+### ویژگی‌های اصلی
+- 👤 **اضافه کردن کاربران** - ایجاد پروفایل‌های کاربری جدید با اعتبارسنجی
+- 📖 **مشاهده کاربران** - نمایش تمام کاربران در جدول واکنش‌پذیر
+- ✏️ **ویرایش کاربران** - به‌روزرسانی اطلاعات کاربر
+- 🗑️ **حذف کاربران** - حذف رکوردهای کاربری
+- 🔍 **جستجو** - یافتن کاربران بر اساس نام یا شناسه
+- 📊 **آمار** - مشاهده تعداد کاربران و تحلیل‌ها
+
+### ویژگی‌های فنی
+- 🛡️ اعتبارسنجی و پاک‌سازی ورودی
+- 🔐 جلوگیری از تزریق SQL
+- 📱 طراحی واکنش‌پذیر (دوستانه برای موبایل)
+- ⚡ پرس‌وجوهای سریع و بهینه‌شده
+- 📝 کد به‌خوبی مستندسازی‌شده
+- 🎨 رابط کاربری تمیز
 
 ---
 
@@ -76,6 +110,30 @@ Perfect for learning database operations and web development fundamentals!
 
 ---
 
+## 💡 نحوه استفاده (فارسی)
+
+### اضافه کردن کاربر
+1. روی دکمه "اضافه کردن کاربر جدید" کلیک کنید
+2. فرم را با جزئیات کاربر پر کنید
+3. برای اضافه کردن به پایگاه داده "ذخیره" کلیک کنید
+
+### مشاهده کاربران
+- به صفحه "کاربران" بروید
+- تمام کاربران را در یک جدول فرمت‌شده ببینید
+- با کلیک بر روی هر ردیف جزئیات کاربر را مشاهده کنید
+
+### ویرایش کاربر
+1. دکمه "ویرایش" را کنار کاربر کلیک کنید
+2. اطلاعات را به‌روزرسانی کنید
+3. برای ذخیره تغییرات "به‌روزرسانی" کلیک کنید
+
+### حذف کاربر
+1. دکمه "حذف" را کلیک کنید
+2. حذف را تأیید کنید
+3. کاربر از پایگاه داده حذف خواهد شد
+
+---
+
 ## 🔒 Security Features
 
 - ✅ **Prepared Statements** - Prevent SQL injection
@@ -84,6 +142,17 @@ Perfect for learning database operations and web development fundamentals!
 - ✅ **CSRF Protection** - Token verification
 - ✅ **Password Hashing** - Secure password storage
 - ✅ **XSS Prevention** - HTML entity encoding
+
+---
+
+## 🔒 ویژگی‌های امنیتی (فارسی)
+
+- ✅ **دستورات آماده** - جلوگیری از تزریق SQL
+- ✅ **اعتبارسنجی ورودی** - اعتبارسنجی تمام ورودی‌ها
+- ✅ **مدیریت خطا** - مدیریت مناسب استثنی‌ها
+- ✅ **محافظت CSRF** - تأیید توکن
+- ✅ **رمزگذاری رمز عبور** - ذخیره‌سازی ایمن رمز عبور
+- ✅ **جلوگیری از XSS** - رمزگذاری موجودیت HTML
 
 ---
 
@@ -97,6 +166,19 @@ After completing this project, you'll understand:
 - 📱 Responsive web design
 - 🧹 Clean code practices
 - 🧪 Basic testing and debugging
+
+---
+
+## 🎓 نتایج یادگیری (فارسی)
+
+پس از تکمیل این پروژه، شما درک خواهید کرد:
+- 📚 نحوه ایجاد یک برنامه CRUD کامل
+- 🗄️ طراحی پایگاه داده و روابط
+- 🔄 روش‌های HTTP و API‌های RESTful
+- 🛡️ اصول امنیت برنامه وب
+- 📱 طراحی وب واکنش‌پذیر
+- 🧹 روش‌های کد تمیز
+- 🧪 تست و اشکال‌زدایی اساسی
 
 ---
 
@@ -122,6 +204,28 @@ Solution: Use a valid email address in the format: user@example.com
 
 ---
 
+## 🐛 عیب‌یابی (فارسی)
+
+### خطای اتصال پایگاه داده
+```
+خطا: نتوانست به پایگاه داده متصل شود
+راه‌حل: اعتبارات پایگاه داده را در config/database.php بررسی کنید
+```
+
+### خطای 404 در صفحات
+```
+خطا: صفحه یافت نشد
+راه‌حل: اطمینان حاصل کنید که فایل‌ها در دایرکتوری صحیح هستند و سرور اجرا می‌شود
+```
+
+### خطای اعتبارسنجی فرم
+```
+خطا: قالب ایمیل نامعتبر
+راه‌حل: از یک آدرس ایمیل معتبر در قالب user@example.com استفاده کنید
+```
+
+---
+
 ## 🚀 Future Enhancements
 
 - [ ] User authentication and login system
@@ -135,12 +239,34 @@ Solution: Use a valid email address in the format: user@example.com
 
 ---
 
+## 🚀 بهبودهای آینده (فارسی)
+
+- [ ] سیستم احراز هویت و ورود کاربر
+- [ ] کنترل دسترسی مبتنی بر نقش (RBAC)
+- [ ] جستجو و فیلترینگ پیشرفته
+- [ ] عملیات دسته‌ای
+- [ ] صادرات به CSV/PDF
+- [ ] مستندات API (Swagger)
+- [ ] تست‌های واحد
+- [ ] کانتینرسازی Docker
+
+---
+
 ## 📚 Resources
 
 - [PHP Official Documentation](https://www.php.net/manual/)
 - [MySQL Documentation](https://dev.mysql.com/doc/)
 - [REST API Best Practices](https://restfulapi.net/)
 - [OWASP Security Guidelines](https://owasp.org/)
+
+---
+
+## 📚 منابع (فارسی)
+
+- [مستندات رسمی PHP](https://www.php.net/manual/)
+- [مستندات MySQL](https://dev.mysql.com/doc/)
+- [بهترین روش‌های REST API](https://restfulapi.net/)
+- [دستورالعمل‌های امنیتی OWASP](https://owasp.org/)
 
 ---
 
@@ -178,10 +304,23 @@ If you have any questions or need help:
 
 ---
 
+## 📞 پشتیبانی (فارسی)
+
+اگر سؤالی دارید یا نیاز به کمک دارید:
+1. بخش [عیب‌یابی](#-عیب‌یابی-فارسی) را بررسی کنید
+2. [Issue](https://github.com/mehdifrtgyhuj-debug/php-crud-/issues) جدیدی باز کنید
+3. با نویسنده تماس بگیرید
+
+---
+
 <div align="center">
 
 ⭐ If this project helped you, please give it a star!
 
+⭐ اگر این پروژه کمکی برای شما بود، لطفاً یک ستاره بدهید!
+
 **Made with ❤️ by Mehdi Fartighiyej**
+
+**ساخته‌شده با ❤️ توسط مهدی فرتیقیه‌ج**
 
 </div>
